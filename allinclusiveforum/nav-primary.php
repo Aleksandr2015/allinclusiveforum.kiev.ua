@@ -12,7 +12,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <?php bloginfo('name'); ?>
+                    <?php# bloginfo('name'); ?>
+                    All inclusive
                 </a>
         </div>
 
