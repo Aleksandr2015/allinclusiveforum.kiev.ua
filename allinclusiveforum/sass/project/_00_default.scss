@@ -1,0 +1,13 @@
+html, body {    
+    font-family: 'Palatino Linotype', Book Antiqua, Palatino, serif;
+    background: url(../img/crossword.png);
+}
+
+a {
+    color: #bbada2; 
+}
+
+a:hover, a:active, a:focus {
+    color: #8c8682;
+    text-decoration: none;
+}

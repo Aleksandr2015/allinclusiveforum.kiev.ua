@@ -1,0 +1,35 @@
+//basic styles
+@import "base/reset";
+
+// -> Bootstrap base disable if no need
+    // styles for print
+    @import "../vendor/bootstrap/print";
+    // basic bootstrap reset
+    @import "../vendor/bootstrap/bootstrap_reset";    
+
+//avg core sass
+@import "core";
+
+// -> Project parts styles
+
+@import "project/00_default";
+@import "project/00_nav_primary";
+@import "project/00_nav_secondary";
+@import "project/00_slider_in_header_basic";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+@import "project/01_header_basic";
+@import "project/08_contacts";
+@import "project/02_about_us";
+@import "project/09_footer";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+//@import "project/";
+

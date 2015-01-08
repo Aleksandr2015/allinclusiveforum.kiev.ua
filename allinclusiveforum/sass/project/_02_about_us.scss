@@ -1,0 +1,20 @@
+/*
+* about_us
+*/
+
+.about_us {
+    &_text {
+        margin-bottom: 20px;
+    }
+    &_item {        
+        padding-bottom: 10px;
+        &:hover {
+            background-color:  #bbada2;
+            background-color:  rgba(187,173,162,.2);
+        }
+        &__title {            
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+    }
+}

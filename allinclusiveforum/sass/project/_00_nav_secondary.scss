@@ -1,0 +1,38 @@
+/*
+* nav_secondary
+*/
+
+
+.nav_secondary {
+    position: relative;
+    z-index: 999;
+    border-radius: 0 !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-width: 0px !important;
+    min-height: 30px !important;
+    & .navbar-brand {
+        font-style: italic;
+    }
+    & .container {
+        padding-left: 0;
+        padding-right: 0;
+        & #bs-example-navbar-collapse-2 {
+            padding-left: 0;
+            padding-right: 0;            
+        }
+    }
+    & .navbar-nav > li > a {
+        font-size: 12px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    & .navbar-collapse {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        float: left !important;
+    }
+    & .navbar-right {
+        margin-right: 0 !important;
+    }
+}

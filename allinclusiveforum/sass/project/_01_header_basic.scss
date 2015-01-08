@@ -1,0 +1,51 @@
+/*
+* header_basic
+*/
+
+.header_basic {
+    margin-bottom: -100px;
+    &_wrap {
+        position: relative;
+        height: 500px;
+        &__logo {
+            position: absolute;
+            top: 5%;
+            left: 34%;
+            font-size: 250%;
+            font-weight: 800;
+            line-height: 65%;
+            text-shadow: 1px 1px 1px #fff;
+            font-style: italic;
+            &___text {
+                font-size: 25%;
+                letter-spacing: 1.3px;
+                text-transform: uppercase;
+                text-shadow: none;                
+            }
+        }
+        &__phones {
+            position: absolute;
+            right: 3%;
+            top: 4%;
+            text-shadow: 1px 1px 1px #fff;
+            font-style: italic;
+            & p {
+                margin-bottom: 0;
+                font-size: 180%;
+                line-height: 110%;
+            }
+        }
+        &__slogan {
+            position: absolute;
+            bottom: 22%;
+            left: 34%;
+            font-size: 170%;
+            line-height: 100%;
+//            text-shadow: 1px 1px 1px #000;
+//            color: #fff;
+            text-shadow: 1px 1px 10px #fff;
+            color: #000;
+            font-style: italic;
+        }        
+    }
+}
